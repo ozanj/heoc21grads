@@ -1,0 +1,50 @@
+/* Universal */
+
+body {
+  background-image: linear-gradient(#2774AE, #8BB8E8);
+}
+
+.reveal h1 {
+  color: #FFC72C;
+}
+
+.reveal h2 {
+  color: white;
+}
+
+.reveal .slide-background:before {
+  background: url('../../../../../assets/images/gold_glitter.png');
+  background-size: 30%;
+  opacity: 0.2;
+  top: -5px;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+/* Controls */
+
+.reveal .progress {
+  color: #FFD100;
+}
+
+/* Title */
+
+.title h1, .title p {
+  color: white;
+}
+
+/* Components */
+
+.reveal .quote {
+  color: white;
+  background-color: black;
+}
+
+.reveal .img-wrapper {
+  background-color: black;
+}
+
+.reveal h3 {
+  color: white;
+  border-color: white !important;
+}

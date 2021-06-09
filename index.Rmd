@@ -1,0 +1,364 @@
+---
+title: 'HEOC Commencement'
+mode: selfcontained
+framework: revealjs
+revealjs:
+  theme: theme1
+  transition: linear
+  center: 'false'
+--- .title
+
+```{r, include=FALSE}
+library(slidify)
+library(slidifyLibraries)
+# slidify('index.Rmd')
+# https://ozanj.github.io/heoc21grads/
+
+library(servr)
+# Start server: servr::httd()
+# Check if server(s) running: daemon_list()
+# Stop server(s): daemon_stop(which = daemon_list())
+
+library(stringr)
+
+create_img <- function(img='https://images.unsplash.com/photo-1511717004695-7862a87f4b3d?w=200', style='') {
+  if (str_detect(img, '^http')) {
+    src <- img
+  } else {
+    src <- file.path('.', 'assets', 'photos', img)
+  }
+  return(paste0('<div class="img-wrapper" style="', style, '"><img src="', src, '"></div>'))
+}
+
+create_quote <- function(txt='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', src='Source', style='') {
+  return(paste0('<div class="quote" style="', style, '"><p>', txt, '</p><p>- ', src, '</p></div>'))
+}
+
+create_textbox <- function(txt='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', style='') {
+  return(paste0('<div class="textbox" style="', style, '">', txt, '</div>'))
+}
+```
+
+<img class="logo1" src="./assets/images/logo1.png" />
+<img class="logo2" src="./assets/images/logo2.gif" />
+
+# UCLA HEOC<br>MA and PhD Commencement
+
+Spring 2021
+
+<div id="slides-start" class="slides-wrapper">
+
+```{r, echo=FALSE, results='asis'}
+img_dir <- file.path('.', 'assets', 'slideshow')
+images <- list.files(img_dir)
+
+for (i in images) {
+  top <- str_match(i, '^top(\\d+)')[1, 2]
+  val <- ifelse(is.na(top), 20, top)
+  
+  cat('<div class="slide">
+    <img src="', file.path(img_dir, i), '" style="top:-', val, '%">
+  </div>', sep = '')
+}
+```
+
+</div>
+
+<a href="https://ozanj.github.io/heoc21grads/">ozanj.github.io/heoc21grads</a>
+
+<audio loop data-autoplay id="slides-music">
+  <source src="./assets/audio/pomp-and-circumstance.mp3" type="audio/mpeg">
+</audio>
+
+---
+
+## Speakers
+
+--- .speaker .tall
+
+# Professor Patricia McDonough, HEOC Division Head
+
+*** =info
+
+`r create_img('patm-speaker.jpg', style="height:350px")`
+
+---
+
+## Master of Arts in Education
+
+--- &twocol .gold .tall
+
+# Amanda Carrasco, M.A.
+
+### Advisor: Sylvia Hurtado 
+
+*** =left
+
+`r create_img('amandac.jpg', style='transform: translateX(20px);')`
+
+*** =right
+
+`r create_textbox("Quiero agradecer a toda mi familia, amigxs, compañerxs y mentores por todo su apoyo a lo largo de mi maestría. Estoy muy agradecida de tener la oportunidad de seguir mis pasiones y poder seguir estudiando. Me siento muy…excited!", style='transform: translateX(-40px);width:265px;')`
+
+
+--- &threecol .gold
+
+# Harmeet Kaur Kalsi, M.A.
+
+### Advisor: Linda Sax
+
+*** =left
+
+`r create_img('harmeetk-2.jpeg', style='transform: translate(-90px, -5px);height:95%;')`
+
+*** =middle
+
+`r create_img('harmeetk-1.jpeg', style='transform: translate(-97px, -5px);height:85%;')`
+
+*** =right
+
+`r create_quote('Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.', 'Harriet Tubman', style='transform: translateX(100px);font-size:14.5px;width:201px;')`
+
+`r create_textbox("Thank you to each person who has supported my dream to change the world. Let us remain hopeful and resilient so we continue to make positive transformations to this world.", style='transform: translateX(100px);font-size:14.5px;width:201px;')`
+
+
+--- .speaker .gold .tall
+
+# N. Angie Jaimez Noel, M.A.
+
+### Advisor: Sylvia Hurtado
+
+*** =info
+
+`r create_img('normaj.jpg', style='transform: translateY(-20px);')`
+
+
+--- &twocol .gold
+
+# Brianna Wright, M.A.
+
+### Advisor: Cecilia Rios-Aguilar
+
+*** =left
+
+`r create_img('briannaw.JPEG', style='transform: translateY(10px);')`
+
+*** =right
+
+`r create_textbox("I am infinitely grateful for the many people who have played a role in my educational journey. Thank you to my community, professors, friends, abuelos, and of course my wonderful mom and dad.", style='transform: translate(35px, 10px);width:250px;')`
+
+--- .info
+
+# Master of Arts in Education
+
+<br><br>
+
+**Andre Le Thai Trong Nguyen, M.A.**
+
+Advisor: TBD
+
+<br>
+
+**Hae Rim (Grace) Shin, M.A.**
+
+Advisor: TBD
+
+<br>
+
+**Diondraya Christine Taylor, M.A.**
+
+Advisor: TBD
+
+
+---
+
+## Doctor of Philosophy in Education
+
+--- &twocol .gold .tall
+
+# Jenny Jong-Hwa Lee, Ph.D.
+
+### "Going Global" at Home: International Branch Campuses, Im/Mobilities, and the Tensions of Class and Language<br>Chair: Mitchell J. Chang
+
+*** =left
+
+`r create_img('jennyl-1.jpg', style='transform:translate(-34px, -10px);')`
+
+*** =right
+
+`r create_img('jennyl-2.jpg', style='transform:translate(-28px, -15px);height:62%')`
+
+`r create_textbox('My PhD journey has spanned over a decade and has been one of the most arduous treks of my life, from the loss of three loved ones, divorce, depression, and a transpacific move. According to Maya Angelou, "You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it." I am eternally grateful for my family and friends who helped me rise despite all the odds. I love you all.', style='transform:translate(-85px, 5px);width:500px;font-size:14.5px;')`
+
+--- &twocol .gold
+
+# Austin Lyke, Ph.D.
+
+### Horizontal Stratification in the City: Field of Study, Gentrification, and the Social Topography of Los Angeles<br>Chair: Cecilia Rios-Aguilar
+
+*** =left
+
+`r create_img('austinl-1.JPG', style='transform: translate(-40px, -5px);')`
+
+*** =right
+
+`r create_img('austinl-2.jpeg', style='transform: translate(50px, -5px);')`
+
+
+--- &threecol .gold
+
+# Hope Katherine McCoy, Ph.D.
+
+### Soft Power & Education: Russian Cultural Centers on the African Continent<br>Chairs: Walter Allen & Robert Rhoads
+
+*** =left
+
+`r create_img('hopem-4.png', style='transform: translateX(-30px);')`
+
+*** =middle
+
+`r create_img('hopem-1.png', style='transform: translate(-5px, -5px);height:90%;')`
+
+`r create_textbox('Slow and steady wins the race!', style='transform:translateY(20px);width:225px;')`
+
+*** =right
+
+`r create_img('hopem-2.png', style='transform: translateX(17px);')`
+
+
+--- &threecol .gold
+
+# Destiny McLennan, Ph.D.
+
+### "We Just Find Ways to Survive": Identity and Asset-Based Decision-Making Processes Among Black Youth in an AntiBlack Reality<br>Chair: Cecilia Rios-Aguilar
+
+*** =left
+
+`r create_img('destinym-1.png', style='transform: translateX(-27px);')`
+
+*** =middle
+
+`r create_textbox("I can't believe I've made it to where I am today. As one of my participants said, \"surviving isn't the exact same as thriving, surviving isn't the same as being healthy. But when you come from communities that have experienced generations of marginalizing, it's like a constant struggle.\" To come from where I come from and have experienced all that I have, I couldn't be more proud of my accomplishments, and more ready to continue serving my community. Thank you to my village for getting me here. Huge thank you to my mom and little brother who continue to support and inspire me everyday. I appreciate and love you both so much.", style='transform:translate(5px, 3px);width:230px;font-size:14.5px;')`
+
+*** =right
+
+`r create_img('destinym-2.JPG', style='transform: translateX(25px);')`
+
+
+--- .gold .tall .flex-invert
+
+# Kaitlin Newhouse, Ph.D.
+
+### Race & Class in the College Classroom:<br>Faculty interactions and student learning among racially diverse poor and working-class collegians<br>Chair: Linda Sax
+
+*** =info
+
+`r create_img('kaitlinn.jpeg', style='transform: translate(-5px, -15px);height:70%;')`
+
+`r create_textbox('Like every good or interesting or important thing I have ever done, this accomplishment was only possible because of the people who love me so well. Thank you. I love you. I owe you big time. We did it.', style='transform: translateY(-5px);width:485px;')`
+
+
+--- &threecol .gold
+
+# Annie M. Wofford, Ph.D.
+
+### Rewriting the Script for Equity-Minded Graduate School Pathways:<br>Examining Mechanisms of Mentoring and Psychosocial Development in Computing Disciplines<br>Chair: Linda Sax
+
+*** =left
+
+`r create_img('anniew-1.JPG', style='transform: translate(-85px, -5px);')`
+
+*** =middle
+
+`r create_img('anniew-3.png', style='transform: translate(-46px, -5px);height:60%;')`
+
+`r create_textbox('As a collective effort with a solitary name, I am forever grateful for the power of community in helping me reach this Ph.D. milestone. Many thanks to the most amazing partner (Ryan), my family, incredible friends and colleagues in HEOC and beyond, as well as my faculty advisor (Linda) and dissertation committee members for their unending support.', style='transform:translate(-53px, 10px);width:346px;font-size:14.5px;')`
+
+*** =right
+
+`r create_img('anniew-2.JPG', style='transform: translate(65px, -5px);')`
+
+
+--- .info
+
+# Doctor of Philosophy in Education
+
+<br>
+
+**Kapua Lililehua Chandler, Ph.D.**
+
+Thesis Title
+
+Chair: TBD
+
+<br>
+
+**Daniel Harris, Ph.D.**
+
+Thesis Title
+
+Chair: TBD
+
+<br>
+
+**Chantal Jones, Ph.D.**
+
+Thesis Title
+
+Chair: TBD
+
+<br>
+
+**Hector Vicente Ramos, Ph.D.**
+
+Thesis Title
+
+Chair: TBD
+
+<br>
+
+**Edgar Romo, Ph.D.**
+
+Thesis Title
+
+Chair: TBD
+
+
+--- .title .credit
+
+<img class="logo1" src="./assets/images/logo1.png" />
+<img class="logo2" src="./assets/images/logo2.gif" />
+
+# Congratulations Graduates!
+
+<div id="slides-end" class="slides-wrapper">
+
+```{r, echo=FALSE, results='asis'}
+img_dir <- file.path('.', 'assets', 'slideshow')
+images <- list.files(img_dir)
+
+for (i in images) {
+  cat('<div class="slide">
+    <img src="', file.path(img_dir, i), '">
+  </div>', sep = '')
+}
+```
+
+</div>
+
+<audio loop data-autoplay>
+  <source src="./assets/audio/pomp-and-circumstance.mp3" type="audio/mpeg">
+</audio>
+
+---
+
+<div style="margin:50px;padding:0 250px">
+  <img class="logo1" src="./assets/images/logo1.png" />
+  <img class="logo2" src="./assets/images/logo2.gif" />
+</div>
+
+<div style="margin-top:250px;">
+  Created using R/RStudio
+  <br><br>
+  <a href="https://github.com/ozanj/heoc21grads" target="_blank">github.com/ozanj/heoc21grads</a>
+</div>

@@ -1,0 +1,88 @@
+/* Universal */
+
+body {
+  background-image: linear-gradient(#FAFAFA, #8BB8E8);
+}
+
+.reveal h1 {
+  color: #003B5C;
+}
+
+.reveal h2 {
+  color: #003B5C;
+}
+
+.reveal .slide-background:before {
+  background: url('../../../../../assets/images/grad_cap.png');
+  background-size: 70%;
+  opacity: 0.2;
+  top: -40px;
+}
+
+/* Controls */
+
+.reveal .progress {
+  color: #FFD100;
+}
+
+/* Title */
+
+.title h1, .title p {
+  color: black;
+}
+
+/* Components */
+
+.reveal .quote, .reveal .textbox {
+  background-color: #003B5C;
+  color: #FFD100;
+}
+
+.reveal .gold .quote, .reveal .gold .textbox {
+  background-color: #FFB81C;
+  color: black;
+}
+
+.reveal .img-wrapper {
+  background-color: #003B5C;
+}
+
+.reveal .gold .img-wrapper {
+  background-color: black;
+}
+
+.reveal .speaker .img-wrapper {
+  background-color: #FFB81C;
+}
+
+.reveal .custom .container .img-wrapper:first-child,
+.reveal .custom .container .img-wrapper:last-child {
+  background-color: #FFC72C;
+}
+
+.reveal .gold h1 {
+  color: black;
+  text-shadow: -1px -1px 1px white;
+}
+
+.reveal h3 {
+  color: #003B5C;
+  border: 2px solid #003B5C;
+}
+
+.reveal .gold h3 {
+  color: black;
+  border: 2px solid black;
+}
+
+/* Audio */
+
+.audio-button {
+  color: #2774AE;
+  font-size: 25px !important;
+  transition: color .4s ease;
+}
+
+.audio-button:hover {
+  color: #8BB8E8;
+}

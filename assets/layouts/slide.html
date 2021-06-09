@@ -1,0 +1,16 @@
+<section class='horizontal {{slide.class}}' id='{{slide.id}}' data-state='slide-horizontal'>
+  {{{ slide.header }}}
+  {{{ slide.content }}}
+  <div class='container'>
+     {{{ slide.info.html }}}
+  </div>
+  {{# slide.pnotes }}
+  <aside class='notes'>
+    {{{ html }}}
+  </aside>
+  {{/ slide.pnotes }}
+  <div class="modal">
+    <div><span class="close">&times;</span></div>
+    <div class="content"></div>
+  </div>
+</section>
