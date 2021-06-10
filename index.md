@@ -34,6 +34,10 @@ Spring 2021
   </div><div class="slide">
     <img src="./assets/slideshow/Elaine Jessica Tamargo - heoc7.jpg" style="top:-0%">
   </div><div class="slide">
+    <img src="./assets/slideshow/JOHNNIE YAJ - Screen Shot 2021-01-27 at 9.52.56 AM.png" style="top:-0%">
+  </div><div class="slide">
+    <img src="./assets/slideshow/JOHNNIE YAJ - workshop02.08.2021 (1).jpg" style="top:-0%">
+  </div><div class="slide">
     <img src="./assets/slideshow/top10-Elaine Jessica Tamargo - heoc5.jpg" style="top:-20%">
   </div><div class="slide">
     <img src="./assets/slideshow/top10-Elaine Jessica Tamargo - heoc9.jpg" style="top:-20%">
@@ -181,7 +185,7 @@ Advisor: Linda Sax
 
 <div class="textbox" style="transform:translate(-85px, 5px);width:500px;font-size:14.5px;">My PhD journey has spanned over a decade and has been one of the most arduous treks of my life, from the loss of three loved ones, divorce, depression, and a transpacific move. According to Maya Angelou, "You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it." I am eternally grateful for my family and friends who helped me rise despite all the odds. I love you all.</div>
 
---- &twocol .gold
+--- &twocol .gold .speaker
 
 # Austin Lyke, Ph.D.
 
@@ -249,6 +253,17 @@ Advisor: Linda Sax
 <div class="textbox" style="transform: translateY(-5px);width:485px;">Like every good or interesting or important thing I have ever done, this accomplishment was only possible because of the people who love me so well. Thank you. I love you. I owe you big time. We did it.</div>
 
 
+--- .speaker .gold .tall
+
+# Hector Vicente Ramos, Ph.D.
+
+### Thesis Title<br>Chair: Sylvia Hurtado
+
+*** =info
+
+<div class="img-wrapper" style="transform: translateY(-20px);"><img src="./assets/photos/hectorr.jpeg"></div>
+
+
 --- &threecol .gold
 
 # Annie M. Wofford, Ph.D.
@@ -274,7 +289,7 @@ Advisor: Linda Sax
 
 # Doctor of Philosophy in Education
 
-<br>
+<br><br>
 
 **Kapua Lililehua Chandler, Ph.D.**
 
@@ -297,14 +312,6 @@ Chair: Walter Allen
 Thesis Title
 
 Chair: Walter Allen
-
-<br>
-
-**Hector Vicente Ramos, Ph.D.**
-
-Thesis Title
-
-Chair: Kevin Eagan
 
 <br>
 
@@ -338,6 +345,10 @@ Chair: Kevin Eagan
     <img src="./assets/slideshow/Elaine Jessica Tamargo - heoc6.jpg" style="top:-0%">
   </div><div class="slide">
     <img src="./assets/slideshow/Elaine Jessica Tamargo - heoc7.jpg" style="top:-0%">
+  </div><div class="slide">
+    <img src="./assets/slideshow/JOHNNIE YAJ - Screen Shot 2021-01-27 at 9.52.56 AM.png" style="top:-0%">
+  </div><div class="slide">
+    <img src="./assets/slideshow/JOHNNIE YAJ - workshop02.08.2021 (1).jpg" style="top:-0%">
   </div><div class="slide">
     <img src="./assets/slideshow/top10-Elaine Jessica Tamargo - heoc5.jpg" style="top:-10%">
   </div><div class="slide">
