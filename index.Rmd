@@ -53,8 +53,8 @@ img_dir <- file.path('.', 'assets', 'slideshow')
 images <- list.files(img_dir)
 
 for (i in images) {
-  top <- str_match(i, '^top(\\d+)')[1, 2]
-  val <- ifelse(is.na(top), 20, top)
+  top <- as.numeric(str_match(i, '^top(\\d+)')[1, 2]) + 10
+  val <- ifelse(is.na(top), 0, top)
   
   cat('<div class="slide">
     <img src="', file.path(img_dir, i), '" style="top:-', val, '%">
@@ -155,19 +155,19 @@ for (i in images) {
 
 **Andre Le Thai Trong Nguyen, M.A.**
 
-Advisor: TBD
+Advisor: Mitchell Chang
 
 <br>
 
 **Hae Rim (Grace) Shin, M.A.**
 
-Advisor: TBD
+Advisor: Cecilia Rios-Aguilar
 
 <br>
 
 **Diondraya Christine Taylor, M.A.**
 
-Advisor: TBD
+Advisor: Linda Sax
 
 
 ---
@@ -178,7 +178,7 @@ Advisor: TBD
 
 # Jenny Jong-Hwa Lee, Ph.D.
 
-### "Going Global" at Home: International Branch Campuses, Im/Mobilities, and the Tensions of Class and Language<br>Chair: Mitchell J. Chang
+### "Going Global" at Home: International Branch Campuses, Im/Mobilities, and the Tensions of Class and Language<br>Chair: Mitchell Chang
 
 *** =left
 
@@ -276,7 +276,7 @@ Advisor: TBD
 
 *** =right
 
-`r create_img('anniew-2.JPG', style='transform: translate(65px, -5px);')`
+`r create_img('anniew-4.png', style='transform: translate(69px, -5px);')`
 
 
 --- .info
@@ -289,7 +289,7 @@ Advisor: TBD
 
 Thesis Title
 
-Chair: TBD
+Chair: Mitchell Chang
 
 <br>
 
@@ -297,7 +297,7 @@ Chair: TBD
 
 Thesis Title
 
-Chair: TBD
+Chair: Walter Allen
 
 <br>
 
@@ -305,7 +305,7 @@ Chair: TBD
 
 Thesis Title
 
-Chair: TBD
+Chair: Walter Allen
 
 <br>
 
@@ -313,7 +313,7 @@ Chair: TBD
 
 Thesis Title
 
-Chair: TBD
+Chair: Kevin Eagan
 
 <br>
 
@@ -321,7 +321,7 @@ Chair: TBD
 
 Thesis Title
 
-Chair: TBD
+Chair: Kevin Eagan
 
 
 --- .title .credit
@@ -338,8 +338,11 @@ img_dir <- file.path('.', 'assets', 'slideshow')
 images <- list.files(img_dir)
 
 for (i in images) {
+  top <- str_match(i, '^top(\\d+)')[1, 2]
+  val <- ifelse(is.na(top), 0, top)
+  
   cat('<div class="slide">
-    <img src="', file.path(img_dir, i), '">
+    <img src="', file.path(img_dir, i), '" style="top:-', val, '%">
   </div>', sep = '')
 }
 ```
