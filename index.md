@@ -179,6 +179,21 @@ Advisor: Linda Sax
 
 --- &twocol .gold .tall
 
+# Chantal Jones, Ph.D.
+
+### Legacy of the Law: The Educational Diversity Project into the Future Centering Historically Black Colleges and Universities<br>Chairs: Walter Allen & Kim Gomez
+
+*** =left
+
+<div class="img-wrapper" style="transform: translate(40px, -10px);height:97%;"><img src="./assets/photos/chantalj.jpg"></div>
+
+*** =right
+
+<div class="textbox" style="transform: translate(-35px, -5px);width:228px;">Thank you to all the friends and family who made this possible! I am grateful to you all!</div>
+
+
+--- &twocol .gold .tall
+
 # Jenny Jong-Hwa Lee, Ph.D.
 
 <p class="description">Described by advisor as: Brilliant, extraordinary, supportive of others</p>
@@ -315,7 +330,7 @@ Advisor: Linda Sax
 
 <p class="description-list">Described by advisor as: Enormously gifted, steadfastly principled, and generous</p>
 
-Thesis Title
+Indigenous Models of Higher Education: Understanding the Indigenizing and Decolonizing Processes
 
 Chair: Mitchell Chang
 
@@ -323,17 +338,9 @@ Chair: Mitchell Chang
 
 **Daniel Harris, Ph.D.**
 
-Thesis Title
+Making a Way Out of No Way: An Antideficit Approach to Financial Literacy
 
-Chair: Walter Allen
-
-<br>
-
-**Chantal Jones, Ph.D.**
-
-Thesis Title
-
-Chair: Walter Allen
+Chairs: Walter Allen & Tyrone Howard
 
 <br>
 
@@ -341,7 +348,7 @@ Chair: Walter Allen
 
 <p class="description-list">Described by advisor as: Selfless, determined, and exemplary</p>
 
-Thesis Title
+Examining Influences of Pedagogical Practice:<br>A Mixed-Method Study of Science, Technology, Engineering, and Mathematics Faculty at Research Universities
 
 Chair: Kevin Eagan
 
