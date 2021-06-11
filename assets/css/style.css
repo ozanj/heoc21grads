@@ -281,6 +281,22 @@ body {
   vertical-align: sub;
 }
 
+.reveal .description,
+.reveal .info .description-list {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.reveal .description {
+  color: #003B5C;
+  margin-top: 5px;
+}
+
+.reveal .info .description-list {
+  color: #808080;
+  font-weight: 200;
+}
+
 /* Audio + Video */
 
 .audio-button {

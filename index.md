@@ -77,6 +77,14 @@ Spring 2021
 
 <div class="img-wrapper" style="height:350px"><img src="./assets/photos/patm-speaker.jpg"></div>
 
+--- .speaker .tall
+
+# Harmeet Kaur Kalsi
+
+*** =info
+
+<div class="img-wrapper" style="height:400px;transform:translate(-5px, 5px);"><img src="./assets/photos/harmeetk-1.jpeg"></div>
+
 ---
 
 ## Master of Arts in Education
@@ -173,21 +181,25 @@ Advisor: Linda Sax
 
 # Jenny Jong-Hwa Lee, Ph.D.
 
+<p class="description">Described by advisor as: Brilliant, extraordinary, supportive of others</p>
+
 ### "Going Global" at Home: International Branch Campuses, Im/Mobilities, and the Tensions of Class and Language<br>Chair: Mitchell Chang
 
 *** =left
 
-<div class="img-wrapper" style="transform:translate(-34px, -10px);"><img src="./assets/photos/jennyl-1.jpg"></div>
+<div class="img-wrapper" style="transform:translate(-35px, -25px);height:97%"><img src="./assets/photos/jennyl-1.jpg"></div>
 
 *** =right
 
-<div class="img-wrapper" style="transform:translate(-28px, -15px);height:62%"><img src="./assets/photos/jennyl-2.jpg"></div>
+<div class="img-wrapper" style="transform:translate(-28px, -25px);height:60%"><img src="./assets/photos/jennyl-2.jpg"></div>
 
-<div class="textbox" style="transform:translate(-85px, 5px);width:500px;font-size:14.5px;">My PhD journey has spanned over a decade and has been one of the most arduous treks of my life, from the loss of three loved ones, divorce, depression, and a transpacific move. According to Maya Angelou, "You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it." I am eternally grateful for my family and friends who helped me rise despite all the odds. I love you all.</div>
+<div class="textbox" style="transform:translate(-91px, -5px);width:500px;font-size:14.5px;">My PhD journey has spanned over a decade and has been one of the most arduous treks of my life, from the loss of three loved ones, divorce, depression, and a transpacific move. According to Maya Angelou, "You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it." I am eternally grateful for my family and friends who helped me rise despite all the odds. I love you all.</div>
 
 --- &twocol .gold .speaker
 
 # Austin Lyke, Ph.D.
+
+<p class="description">Described by advisor as: Collaborative, creative, and caring</p>
 
 ### Horizontal Stratification in the City: Field of Study, Gentrification, and the Social Topography of Los Angeles<br>Chair: Cecilia Rios-Aguilar
 
@@ -225,6 +237,8 @@ Advisor: Linda Sax
 
 # Destiny McLennan, Ph.D.
 
+<p class="description">Described by advisor as: Inquisitive, inspiring, and fierce</p>
+
 ### "We Just Find Ways to Survive": Identity and Asset-Based Decision-Making Processes Among Black Youth in an AntiBlack Reality<br>Chair: Cecilia Rios-Aguilar
 
 *** =left
@@ -244,29 +258,35 @@ Advisor: Linda Sax
 
 # Kaitlin Newhouse, Ph.D.
 
+<p class="description">Described by advisor as: Passionate about equity, team player extraordinaire</p>
+
 ### Race & Class in the College Classroom:<br>Faculty interactions and student learning among racially diverse poor and working-class collegians<br>Chair: Linda Sax
 
 *** =info
 
-<div class="img-wrapper" style="transform: translate(-5px, -15px);height:70%;"><img src="./assets/photos/kaitlinn.jpeg"></div>
+<div class="img-wrapper" style="transform: translate(-5px, -20px);height:70%;"><img src="./assets/photos/kaitlinn.jpeg"></div>
 
-<div class="textbox" style="transform: translateY(-5px);width:485px;">Like every good or interesting or important thing I have ever done, this accomplishment was only possible because of the people who love me so well. Thank you. I love you. I owe you big time. We did it.</div>
+<div class="textbox" style="transform: translateY(-10px);width:485px;">Like every good or interesting or important thing I have ever done, this accomplishment was only possible because of the people who love me so well. Thank you. I love you. I owe you big time. We did it.</div>
 
 
 --- .speaker .gold .tall
 
 # Hector Vicente Ramos, Ph.D.
 
+<p class="description">Described by advisor as: Worldly and intellectually engaged</p>
+
 ### Thesis Title<br>Chair: Sylvia Hurtado
 
 *** =info
 
-<div class="img-wrapper" style="transform: translateY(-20px);"><img src="./assets/photos/hectorr.jpeg"></div>
+<div class="img-wrapper" style="transform: translateY(-35px);"><img src="./assets/photos/hectorr.jpeg"></div>
 
 
 --- &threecol .gold
 
 # Annie M. Wofford, Ph.D.
+
+<p class="description">Described by advisor as: Inspired, mentorship-loving, genuine advocate</p>
 
 ### Rewriting the Script for Equity-Minded Graduate School Pathways:<br>Examining Mechanisms of Mentoring and Psychosocial Development in Computing Disciplines<br>Chair: Linda Sax
 
@@ -293,6 +313,8 @@ Advisor: Linda Sax
 
 **Kapua Lililehua Chandler, Ph.D.**
 
+<p class="description-list">Described by advisor as: Enormously gifted, steadfastly principled, and generous</p>
+
 Thesis Title
 
 Chair: Mitchell Chang
@@ -316,6 +338,8 @@ Chair: Walter Allen
 <br>
 
 **Edgar Romo, Ph.D.**
+
+<p class="description-list">Described by advisor as: Selfless, determined, and exemplary</p>
 
 Thesis Title
 
