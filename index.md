@@ -290,7 +290,7 @@ Advisor: Linda Sax
 
 <p class="description">Described by advisor as: Worldly and intellectually engaged</p>
 
-### Thesis Title<br>Chair: Sylvia Hurtado
+### Chair: Sylvia Hurtado
 
 *** =info
 
